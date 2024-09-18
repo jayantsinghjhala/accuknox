@@ -1,2 +1,19 @@
 <h1>User Created</h1>
-<p>The signals have been triggered. Check the console for the output.</p>
+
+<p>Username: {{ user.username }}</p>
+
+<p>Email: {{ user.email }}</p>
+
+{% if user.first_name %}
+    <p>First Name: {{ user.first_name }}</p>
+{% else %}
+    <p>No first name provided.</p>
+{% endif %}
+
+{% if user.last_name %}
+    <p>Last Name: {{ user.last_name }}</p>
+{% else %}
+    <p>No last name provided.</p>
+{% endif %}
+
+<p>The signals have been triggered. Check the Terminal for the output.</p>
