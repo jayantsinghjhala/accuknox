@@ -1,5 +1,5 @@
 # Django and Python Signals & OOP Showcase
-###(by Jayant Singh Jhala)
+### (by Jayant Singh Jhala)
 
 This project demonstrates answers to three Django signal-related interview questions and a Python OOP question regarding the `Rectangle` class. Below is an overview of each section, the code, and the expected outputs.
 
